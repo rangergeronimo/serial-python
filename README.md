@@ -6,10 +6,10 @@
 
 	Make sure you have Python-UV isntalled and setup. 
 	Then run: 
-	 	<code>
-		  	uv sync
-			source .venv/bin/activate
-	 	<\code>
+	 	
+		$ uv sync
+		$ source .venv/bin/activate
+	 	
 
 	## Usage
 
