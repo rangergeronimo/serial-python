@@ -1,23 +1,27 @@
-# Project Title
+# Python3-serial
 
-	A short description of your project.
+	A little python3-App to write and read data from/to a serial port.
 
 	## Installation
 
-	Explain how to install any dependencies required to run the project.
+	Make sure you have Python-UV isntalled and setup. 
+	Then run: 
+ 	```bash 
+  	uv sync
+	source .venv/bin/activate
+ 	```
 
 	## Usage
 
-	Provide instructions on how to use the project, including examples.
-
-	## Contributing
-
-	Guidelines for contributing to the project (if applicable).
+	1. Confirm  what are you serial port accordingly your system and the device you wwant to connect to. 
+ 	e.g. in wdindows (COM1, COM....), in linux like system (/dev/ttyUSB*).
+  	2. Ajsut the port setting accordingly your system. 
+   	3. Run main.py
 
 	## License
 
-	Specify the license under which the project is distributed.
+	This is LIECESED Under MIT.
 
 	## Authors
 
-	List the project's contributors and contact information (optional).
+	Ranger Geronimo
