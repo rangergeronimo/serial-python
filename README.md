@@ -8,7 +8,7 @@
 	Then run: 
 	 	
 		$ uv sync
-		$ source .venv/bin/activate
+		
 	 	
 
 	## Usage
@@ -18,7 +18,7 @@
   
   	2. Ajsut the port setting accordingly your system. 
    
-   	3. Run main.py
+   	3. Run scr/main.py
 
 	## License
 

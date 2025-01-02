@@ -1,4 +1,5 @@
 # This is the main script to be used as the entry point for the project.
+
 from write_serial import write_to_serial
 
 

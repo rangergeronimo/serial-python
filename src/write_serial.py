@@ -1,12 +1,19 @@
 import json
+import os
 import time
 
 import serial
+from dotenv import load_dotenv
 
 from airflow_sensor import airflow_meter
 
+load_dotenv()
 
-def write_to_serial(port: str = "/dev/ttyUSB0", baudrate: int = 9600) -> None:
+port = os.getenv("PORT")
+baudrate = os.getenv("BAUDRATE")
+
+
+def write_to_serial(port: str, baudrate: int) -> None:
     with serial.Serial(port=port, baudrate=baudrate) as ser:
         try:
             while True:
@@ -25,4 +32,4 @@ def write_to_serial(port: str = "/dev/ttyUSB0", baudrate: int = 9600) -> None:
 # Example usage
 # sudo chmod 666 /dev/tty*
 if __name__ == "__main__":
-    write_to_serial()
+    write_to_serial(port=port, baudrate=baudrate)
