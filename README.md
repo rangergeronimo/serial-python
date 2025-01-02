@@ -6,16 +6,18 @@
 
 	Make sure you have Python-UV isntalled and setup. 
 	Then run: 
- 	```bash 
+ 	<code>
   	uv sync
 	source .venv/bin/activate
- 	```
+ 	<\code>
 
 	## Usage
 
 	1. Confirm  what are you serial port accordingly your system and the device you wwant to connect to. 
  	e.g. in wdindows (COM1, COM....), in linux like system (/dev/ttyUSB*).
+  
   	2. Ajsut the port setting accordingly your system. 
+   
    	3. Run main.py
 
 	## License
